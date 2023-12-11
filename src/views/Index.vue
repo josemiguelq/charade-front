@@ -14,7 +14,7 @@
               Prontuário eletrônico, Programa de intervenção, Análises com
               <b class="text-gray-900">VB-MAPP, AFLS, ABLLS</b> e outros
             </p>
-            <div class="mt-12 flex flex-col sm:flex-row">
+            <div class="mt-12 flex flex-row">
               <a
                 style="margin-right: 10px;"
                 href=""
@@ -40,7 +40,7 @@
       </div>
 
       <img
-        class="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-560-px"
+        class="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860-px hidden sm:block invisible sm:visible "
         :src="patternCover"
         alt="..."
       />
