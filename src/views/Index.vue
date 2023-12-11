@@ -14,17 +14,22 @@
               Prontuário eletrônico, Programa de intervenção, Análises com
               <b class="text-gray-900">VB-MAPP, AFLS, ABLLS</b> e outros
             </p>
-            <div class="mt-12">
+            <div class="mt-12 flex flex-col sm:flex-row">
               <a
+                style="margin-right: 10px;"
                 href=""
                 target="_blank"
-                class="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-emerald-500 active:bg-emerald-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                class="get-started text-white font-bold px-6 py-4
+                rounded outline-none focus:outline-none mb-1 bg-emerald-500 
+                active:bg-emerald-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
               >
               Experimente agora
               </a>
               <a
                 href="https://api.whatsapp.com/send?phone=5567991910048&text=Gostaria%20de%20saber%20mais"
-                class="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                class="text-white font-bold px-6 py-4 rounded outline-none
+                focus:outline-none mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase
+                text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 target="_blank"
               >
               Converse com a gente
