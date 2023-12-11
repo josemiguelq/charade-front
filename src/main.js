@@ -20,6 +20,8 @@ import Auth from "@/layouts/Auth.vue";
 import Dashboard from "@/views/admin/Dashboard.vue";
 import Settings from "@/views/admin/Settings.vue";
 import Tables from "@/views/admin/Tables.vue";
+import NewPatient from "@/views/admin/NewPatient.vue";
+import Users from "@/views/admin/Users.vue";
 import Maps from "@/views/admin/Maps.vue";
 
 // views for Auth layout
@@ -50,8 +52,16 @@ const routes = [
         component: Settings,
       },
       {
-        path: "/admin/tables",
+        path: "/admin/patients",
         component: Tables,
+      },
+      {
+        path: "/admin/patients/new",
+        component: NewPatient,
+      },
+      {
+        path: "/admin/users",
+        component: Users,
       },
       {
         path: "/admin/maps",
