@@ -112,8 +112,7 @@
                       Gestão de acessos
                     </h6>
                     <p class="mb-4 text-blueGray-500">
-                      Vue Notus comes with a huge number of Fully Coded CSS
-                      components.
+                      Acompanhe o avanço de cada um dos seus pacientes com visão de coodenadores e supervisores.
                     </p>
                   </div>
                 </div>
@@ -128,8 +127,22 @@
                       Programa de intervenção
                     </h6>
                     <p class="mb-4 text-blueGray-500">
-                      We also feature many dynamic components for React, NextJS,
-                      Vue and Angular.
+                      Crie Planos de Intervenção personalizados
+                    </p>
+                  </div>
+                </div>
+                <div class="relative flex flex-col min-w-0">
+                  <div class="px-4 py-5 flex-auto">
+                    <div
+                      class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white"
+                    >
+                      <i class="fas fa-hands-holding-child"></i>
+                    </div>
+                    <h6 class="text-xl mb-1 font-semibold">
+                      Acesso aos pais
+                    </h6>
+                    <p class="mb-4 text-blueGray-500">
+                      Crie acesso para que os pais acompanhem a evolução.
                     </p>
                   </div>
                 </div>
@@ -144,8 +157,7 @@
                     </div>
                     <h6 class="text-xl mb-1 font-semibold">Avaliações</h6>
                     <p class="mb-4 text-blueGray-500">
-                      This extension also comes with 3 sample pages. They are
-                      fully coded so you can start working instantly.
+                      Aplique o VBMAPP de maneira online e simples
                     </p>
                   </div>
                 </div>
@@ -160,11 +172,25 @@
                       Relatório diário
                     </h6>
                     <p class="mb-4 text-blueGray-500">
-                      Built by developers for developers. You will love how easy
-                      is to to work with Vue Notus.
+                      Acompanhe diariamente o avanço do paciente.
                     </p>
                   </div>
                 </div>
+                <div class="relative flex flex-col min-w-0">
+                  <div class="px-4 py-5 flex-auto">
+                    <div
+                      class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white"
+                    >
+                      <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <h6 class="text-xl mb-1 font-semibold">
+                      Relatório consolidado
+                    </h6>
+                    <p class="mb-4 text-blueGray-500">
+                      Gere relatório consolidado
+                    </p>
+                  </div>
+                </div>                
               </div>
             </div>
           </div>
