@@ -40,7 +40,7 @@
       </div>
 
       <img
-        class="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860-px block invisible sm:visible "
+        class="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860-px"
         :src="patternCover"
         alt="..."
       />
@@ -92,12 +92,11 @@
                   ></polygon>
                 </svg>
                 <h4 class="text-xl font-bold text-white">
-                  Great for your awesome project
+                  Otimize as Avalizações e Gestão
                 </h4>
                 <p class="text-md font-light mt-2 text-white">
-                  Putting together a page has never been easier than matching
-                  together pre-made components. From landing pages presentation
-                  to login areas, you can easily customise and built your pages.
+                  Tenha controle total da sua clinica e otimize tempo de avaliações e relatórios.
+                  Proporcione um atendimento moderno para seus <span class="font-bold">clientes</span> e colaboradores.
                 </p>
               </blockquote>
             </div>
@@ -216,52 +215,9 @@
             <p
               class="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600"
             >
-              Every element that you need in a product comes built in as a
-              component. All components fit perfectly with each other and can
-              have different colours.
-            </p>
-            <div class="block pb-6">
-              <span
-                class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2"
-              >
-                Buttons
-              </span>
-              <span
-                class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2"
-              >
-                Inputs
-              </span>
-              <span
-                class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2"
-              >
-                Labels
-              </span>
-              <span
-                class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2"
-              >
-                Menus
-              </span>
-              <span
-                class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2"
-              >
-                Navbars
-              </span>
-              <span
-                class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2"
-              >
-                Pagination
-              </span>
-              <span
-                class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2"
-              >
-                Progressbars
-              </span>
-              <span
-                class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2"
-              >
-                Typography
-              </span>
-            </div>
+              Para seu clientes, proporcione um acesso para poder informar a evolução para o paciente.
+              Para sua clinica, gerencie acessos de avaliadores ou coordenadores.              
+            </p>            
             <a
               href="https://www.creative-tim.com/learning-lab/tailwind/vue/alerts/notus?ref=vn-index"
               target="_blank"
@@ -274,44 +230,19 @@
 
           <div class="w-full md:w-5/12 px-4 mr-auto ml-auto mt-32">
             <div
-              class="relative flex flex-col min-w-0 w-full mb-6 mt-48 md:mt-0"
+              class="relative flex flex-col min-w-0 w-full mb-6 mt-8 md:mt-0"
             >
               <img
                 alt="..."
-                :src="componentBtn"
-                class="w-full align-middle rounded absolute shadow-lg max-w-100-px left-145-px -top-29-px z-3"
-              />
-              <img
-                alt="..."
-                :src="componentProfileCard"
-                class="w-full align-middle rounded-lg absolute shadow-lg max-w-210-px left-260-px -top-160-px"
-              />
-              <img
-                alt="..."
-                :src="componentInfoCard"
-                class="w-full align-middle rounded-lg absolute shadow-lg max-w-180-px left-40-px -top-225-px z-2"
-              />
-              <img
-                alt="..."
-                :src="componentInfo2"
-                class="w-full align-middle rounded-lg absolute shadow-2xl max-w-200-px -left-50-px top-25-px"
-              />
-              <img
-                alt="..."
-                :src="componentMenu"
-                class="w-full align-middle rounded absolute shadow-lg max-w-580-px -left-20-px top-210-px"
-              />
-              <img
-                alt="..."
-                :src="componentBtnPink"
-                class="w-full align-middle rounded absolute shadow-xl max-w-120-px left-195-px top-95-px"
-              />
+                :src="patternCall"
+                class="w-full align-middle rounded shadow-lg max-w-300-px"
+              />              
             </div>
           </div>
         </div>
       </div>
 
-      <div class="container mx-auto px-4 pb-32 pt-48">
+      <div class="container mx-auto px-4 pb-32 pt-8">
         <div class="items-center flex flex-wrap">
           <div class="w-full md:w-5/12 ml-auto px-12 md:px-4">
             <div class="md:pr-12">
@@ -398,7 +329,7 @@
 
       <div class="justify-center text-center flex flex-wrap mt-24">
         <div class="w-full md:w-6/12 px-12 md:px-4">
-          <h2 class="font-semibold text-4xl">Beautiful Example Pages</h2>
+          <h2 class="font-semibold text-4xl">Exemplos de funcionalidades</h2>
           <p class="text-lg leading-relaxed mt-4 mb-4 text-blueGray-500">
             Vue Notus is a completly new product built using our past experience
             in web templates. Take the examples we made for you and start
@@ -510,74 +441,6 @@
               Github Star
             </a>
           </div>
-
-          <div class="w-full md:w-4/12 px-4 mr-auto ml-auto mt-32 relative">
-            <i
-              class="fab fa-github text-blueGray-700 text-55 absolute -top-150-px -right-100 left-auto opacity-80"
-            ></i>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="pb-16 bg-blueGray-200 relative pt-32">
-      <div
-        class="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
-        style="transform: translateZ(0);"
-      >
-        <svg
-          class="absolute bottom-0 overflow-hidden"
-          xmlns="http://www.w3.org/2000/svg"
-          preserveAspectRatio="none"
-          version="1.1"
-          viewBox="0 0 2560 100"
-          x="0"
-          y="0"
-        >
-          <polygon
-            class="text-blueGray-200 fill-current"
-            points="2560 0 2560 100 0 100"
-          ></polygon>
-        </svg>
-      </div>
-
-      <div class="container mx-auto">
-        <div
-          class="flex flex-wrap justify-center bg-white shadow-xl rounded-lg -mt-64 py-16 px-12 relative z-10"
-        >
-          <div class="w-full text-center lg:w-8/12">
-            <p class="text-4xl text-center">
-              <span role="img" aria-label="love">
-                😍
-              </span>
-            </p>
-            <h3 class="font-semibold text-3xl">
-              Do you love this Starter Kit?
-            </h3>
-            <p class="text-blueGray-500 text-lg leading-relaxed mt-4 mb-4">
-              Cause if you do, it can be yours now. Hit the buttons below to
-              navigate to get the Free version for your next project. Build a
-              new web app or give an old project a new look!
-            </p>
-            <div class="sm:block flex flex-col mt-10">
-              <a
-                href="https://www.creative-tim.com/learning-lab/tailwind/vue/overview/notus?ref=vn-index"
-                target="_blank"
-                class="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-emerald-500 active:bg-emerald-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
-              >
-                Get started
-              </a>
-              <a
-                href="https://github.com/creativetimofficial/vue-notus?ref=vn-index"
-                target="_blank"
-                class="github-star sm:ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
-              >
-                <i class="fab fa-github text-lg mr-1"></i>
-                <span>Help With a Star</span>
-              </a>
-            </div>
-            <div class="text-center mt-16"></div>
-          </div>
         </div>
       </div>
     </section>
@@ -590,6 +453,7 @@ import FooterComponent from "@/components/Footers/Footer.vue";
 
 import patternVue from "@/assets/img/pattern_vue.png";
 import patternCover from "@/assets/img/cover.png";
+import patternCall from "@/assets/img/call.png";
 import componentBtn from "@/assets/img/component-btn.png";
 import componentProfileCard from "@/assets/img/component-profile-card.png";
 import componentInfoCard from "@/assets/img/component-info-card.png";
@@ -605,6 +469,7 @@ export default {
   data() {
     return {
       patternCover,
+      patternCall,
       patternVue,
       componentBtn,
       componentProfileCard,

@@ -21,6 +21,8 @@ import Dashboard from "@/views/admin/Dashboard.vue";
 import Settings from "@/views/admin/Settings.vue";
 import Tables from "@/views/admin/Tables.vue";
 import NewPatient from "@/views/admin/NewPatient.vue";
+import Patient from "@/views/admin/Patient.vue";
+import Evaluation from "@/views/admin/Evaluation.vue";
 import Users from "@/views/admin/Users.vue";
 import Maps from "@/views/admin/Maps.vue";
 
@@ -56,8 +58,16 @@ const routes = [
         component: Tables,
       },
       {
+        path: "/admin/patient/:id",
+        component: Patient,
+      },
+      {
         path: "/admin/patients/new",
         component: NewPatient,
+      },
+      {
+        path: "/admin/evaluation/select",
+        component: Evaluation,
       },
       {
         path: "/admin/users",

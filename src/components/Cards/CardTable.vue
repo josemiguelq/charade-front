@@ -13,13 +13,15 @@
             Pacientes
           </h3>
         </div>
-        <div class="text-center flex justify-between">        
-        <button
-          class="bg-emerald-500 text-white active:bg-emerald-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 ease-linear transition-all duration-150"
-          type="button"
-        >
-          Novo Paciente
-        </button>
+        <div class="text-center flex justify-between">
+          <router-link to="/admin/patients/new">
+            <button
+              class="bg-emerald-500 text-white active:bg-emerald-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 ease-linear transition-all duration-150"
+              type="button"
+            >
+              Novo Paciente
+            </button>
+          </router-link>
       </div>
       </div>
     </div>
@@ -92,7 +94,8 @@
             <th
               class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center"
             >
-              <span
+              <router-link :to="'/admin/patient/' + index">
+                <span
                 class="ml-3 font-bold"
                 :class="[
                   color === 'light' ? 'text-blueGray-600' : 'text-white',
@@ -100,6 +103,7 @@
               >
                 {{ patient.name }}
               </span>
+              </router-link>
             </th>
             <td
               class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
@@ -172,8 +176,8 @@ export default {
       team4,
       patients: [
         {name: 'Matheus', age: 4, status: 'avaliado', responsible: 'Carla'},
-        {name: 'Matheus', age: 4, status: 'avaliado', responsible: 'Carla'},
-        {name: 'Matheus', age: 4, status: 'avaliado', responsible: 'Carla'},
+        {name: 'Joao', age: 1, status: 'avaliado', responsible: 'Carla'},
+        {name: 'Guilherme', age: 2, status: 'avaliado', responsible: 'Carla'},
       ]
     };
   },

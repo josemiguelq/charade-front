@@ -1,0 +1,46 @@
+<template>
+  <div
+    class="relative flex flex-col min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg"
+  >
+    <div class="flex-auto p-4">
+      <div class="flex flex-wrap">
+        <div class="relative w-auto pl-4 flex-initial">
+          <div
+            class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 rounded-full">
+            <i :class="[iconName]"></i>
+          </div>
+        </div>
+        <div class="relative w-full pr-4 max-w-full flex-grow flex-1">
+          <router-link to="/admin/evaluation/select">
+            <span class="font-semibold text-lg text-blueGray-700">
+            {{ title }}
+            </span>
+          </router-link>
+          <p class="text-sm text-blueGray-500 mt-2">
+            <span class="whitespace-nowrap">{{ description }}</span>
+          </p>
+        </div>        
+      </div>
+    </div>
+  </div>
+</template>
+<script>
+export default {
+  name: "card-stats",
+  props: {
+    title: {
+      type: String,      
+    },
+    iconName: {
+      type: String,
+      default: "fas fa-chart-bar",
+    },
+    description: {
+      type: String,      
+    },
+    actionLink: {
+      type: String,      
+    },
+  },
+};
+</script>
