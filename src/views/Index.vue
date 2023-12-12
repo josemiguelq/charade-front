@@ -272,23 +272,7 @@
                     </div>
                     <div>
                       <h4 class="text-blueGray-500">
-                        Built by Developers for Developers
-                      </h4>
-                    </div>
-                  </div>
-                </li>
-                <li class="py-2">
-                  <div class="flex items-center">
-                    <div>
-                      <span
-                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3"
-                      >
-                        <i class="fab fa-html5"></i>
-                      </span>
-                    </div>
-                    <div>
-                      <h4 class="text-blueGray-500">
-                        Carefully crafted code for Components
+                        Avaliações validadas internacionalmente
                       </h4>
                     </div>
                   </div>
@@ -304,7 +288,7 @@
                     </div>
                     <div>
                       <h4 class="text-blueGray-500">
-                        Dynamic Javascript Components
+                        Disponibilidade online
                       </h4>
                     </div>
                   </div>
@@ -331,9 +315,7 @@
         <div class="w-full md:w-6/12 px-12 md:px-4">
           <h2 class="font-semibold text-4xl">Exemplos de funcionalidades</h2>
           <p class="text-lg leading-relaxed mt-4 mb-4 text-blueGray-500">
-            Vue Notus is a completly new product built using our past experience
-            in web templates. Take the examples we made for you and start
-            playing with them.
+            Colocar prints das avaliacoes
           </p>
         </div>
       </div>
@@ -410,36 +392,13 @@
               <i class="fas fa-code-branch text-xl"></i>
             </div>
             <h3 class="text-3xl mb-2 font-semibold leading-normal text-white">
-              Open Source
+              Relatórios
             </h3>
             <p
               class="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-400"
             >
-              Since
-              <a
-                href="https://tailwindcss.com/?ref=creativetim"
-                class="text-blueGray-300"
-                target="_blank"
-              >
-                Tailwind CSS
-              </a>
-              is an open source project we wanted to continue this movement too.
-              You can give this version a try to feel the design and also test
-              the quality of the code!
+              Quais relatorios?
             </p>
-            <p
-              class="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-400"
-            >
-              Get it free on Github and please help us spread the news with a
-              Star!
-            </p>
-            <a
-              href="https://github.com/creativetimofficial/vue-notus?ref=vn-index"
-              target="_blank"
-              class="github-star mt-4 inline-block text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
-            >
-              Github Star
-            </a>
           </div>
         </div>
       </div>
