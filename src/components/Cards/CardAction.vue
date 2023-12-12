@@ -6,7 +6,9 @@
       <div class="flex flex-wrap">
         <div class="relative w-auto pl-4 flex-initial">
           <div
-            class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 rounded-full">
+            class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 shadow-lg rounded-full"
+            :class="[iconColor]"
+          >
             <i :class="[iconName]"></i>
           </div>
         </div>
@@ -34,6 +36,10 @@ export default {
     iconName: {
       type: String,
       default: "fas fa-chart-bar",
+    },
+    iconColor: {
+      type: String,
+      default: "bg-red-500",
     },
     description: {
       type: String,      

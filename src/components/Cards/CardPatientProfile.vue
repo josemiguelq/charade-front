@@ -8,7 +8,7 @@
           <div class="relative">
             <img
               alt="..."
-              :src="team2"
+              :src="profileDefault"
               class="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px"
             />
           </div>
@@ -46,7 +46,7 @@
         <h3
           class="text-xl font-semibold leading-normal mb-2 text-blueGray-700"
         >
-          Jenna Stones
+          Joao Gabriel
         </h3>      
       </div>
       <div class="mt-4 py-10 border-t border-blueGray-200 text-center">
@@ -60,13 +60,13 @@
       </div>
       <div class="mt-4 py-10 border-t border-blueGray-200 text-center">
         <div class="flex flex-wrap justify-center">
-          <div class="w-full lg:w-6/12 px-4">
+          <div class="w-full lg:w-6/12 p-4">
             <CardAction title="Avaliar" iconName="fas fa-chart-pie"/>            
           </div>
-          <div class="w-full lg:w-6/12 px-4">
+          <div class="w-full lg:w-6/12 p-4">
             <CardAction title="Plano de intervenção"/>
           </div>
-          <div class="w-full lg:w-6/12 px-4">
+          <div class="w-full lg:w-6/12 p-4">
             <CardAction
               title="Registro diário" 
               description="Registre a evoluçao"
@@ -78,13 +78,13 @@
   </div>
 </template>
 <script>
-import team2 from "@/assets/img/team-2-800x800.jpg";
+import profileDefault from "@/assets/img/profile-default.png";
 import CardAction from "./CardAction.vue";
 
 export default {
     data() {
         return {
-            team2,
+          profileDefault,
         };
     },
     components: { CardAction }
