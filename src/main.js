@@ -24,6 +24,7 @@ import NewPatient from "@/views/admin/NewPatient.vue";
 import Patient from "@/views/admin/Patient.vue";
 import Evaluation from "@/views/admin/evaluation/Evaluation.vue";
 import SubEvaluation from "@/views/admin/evaluation/SubEvaluation.vue";
+import IntervertionList from "@/views/admin/intervertion/IntervertionList.vue";
 import Users from "@/views/admin/Users.vue";
 import Maps from "@/views/admin/Maps.vue";
 
@@ -73,6 +74,10 @@ const routes = [
       {
         path: "/admin/evaluation/:id/sub",
         component: SubEvaluation,
+      },
+      {
+        path: "/admin/intervertions/",
+        component: IntervertionList,
       },
       {
         path: "/admin/users",

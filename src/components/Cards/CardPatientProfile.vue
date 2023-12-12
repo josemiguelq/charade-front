@@ -61,16 +61,20 @@
       <div class="mt-4 py-10 border-t border-blueGray-200 text-center">
         <div class="flex flex-wrap justify-center">
           <div class="w-full lg:w-6/12 p-4">
-            <CardAction title="Avaliar" iconName="fas fa-chart-pie"/>            
+            <CardAction title="Avaliar"
+            description="Avalie..." 
+            iconName="fas fa-chart-pie"/>            
           </div>
           <div class="w-full lg:w-6/12 p-4">
-            <CardAction title="Plano de intervenção"/>
+            <CardAction title="Plano de intervenção"
+              description="Crie um plano personalizado"
+              nextAction="/admin/intervertions"/>
           </div>
           <div class="w-full lg:w-6/12 p-4">
             <CardAction
               title="Registro diário" 
               description="Registre a evoluçao"
-              actionLink="/admin/evaluation/select"/>
+              nextAction="/admin/daily-log"/>
           </div>          
         </div>
       </div>
