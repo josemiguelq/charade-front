@@ -13,7 +13,7 @@
           </div>
         </div>
         <div class="relative w-full pr-4 max-w-full flex-grow flex-1">
-          <router-link to="/admin/evaluation/select">
+          <router-link :to="nextAction">
             <span class="font-semibold text-lg text-blueGray-700">
             {{ title }}
             </span>
@@ -44,8 +44,9 @@ export default {
     description: {
       type: String,      
     },
-    actionLink: {
-      type: String,      
+    nextAction: {
+      type: String,
+      default: "/admin/evaluation/select"
     },
   },
 };

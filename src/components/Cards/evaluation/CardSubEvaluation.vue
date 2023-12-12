@@ -9,8 +9,9 @@
         </div>
         <div class="mt-4 py-10 border-t border-blueGray-200 text-center">
           <div class="flex flex-wrap justify-center">
-            <div class="w-full lg:w-6/12 px-4">
-              <CardAction title="VB-MAPP" iconName="fas fa-chart-pie"/>            
+            <div v-for="(evaluation, index) in subEvaluations" :key="index"
+            class="w-full lg:w-6/12 px-4">
+              <CardAction :title="evaluation.name" iconName="fas fa-chart-pie"/>            
             </div>                     
           </div>
         </div>
@@ -18,14 +19,14 @@
     </div>
   </template>
   <script>
-  import team2 from "@/assets/img/team-2-800x800.jpg";
-  import CardAction from "./CardAction.vue";
+  import CardAction from "./../CardAction.vue";
   
   export default {
       data() {
-          return {
-              team2,
-          };
+          return {};
+      },
+      props: {
+        subEvaluations: {required: true}
       },
       components: { CardAction }
   };

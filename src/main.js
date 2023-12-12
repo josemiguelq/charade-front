@@ -22,7 +22,8 @@ import Settings from "@/views/admin/Settings.vue";
 import Tables from "@/views/admin/Tables.vue";
 import NewPatient from "@/views/admin/NewPatient.vue";
 import Patient from "@/views/admin/Patient.vue";
-import Evaluation from "@/views/admin/Evaluation.vue";
+import Evaluation from "@/views/admin/evaluation/Evaluation.vue";
+import SubEvaluation from "@/views/admin/evaluation/SubEvaluation.vue";
 import Users from "@/views/admin/Users.vue";
 import Maps from "@/views/admin/Maps.vue";
 
@@ -68,6 +69,10 @@ const routes = [
       {
         path: "/admin/evaluation/select",
         component: Evaluation,
+      },
+      {
+        path: "/admin/evaluation/sub",
+        component: SubEvaluation,
       },
       {
         path: "/admin/users",

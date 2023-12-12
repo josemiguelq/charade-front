@@ -14,7 +14,7 @@
           </div>
         </div>
       </div>
-      <div class="text-center mt-12">
+      <div class="text-center mt-32 lg:mt-36">
         <h3
           class="text-xl font-semibold leading-normal mb-2 text-blueGray-700 mb-2"
         >

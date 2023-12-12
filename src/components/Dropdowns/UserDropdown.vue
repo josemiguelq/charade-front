@@ -26,12 +26,14 @@
         block: dropdownPopoverShow,
       }"
     >
-      <a
+      <router-link to="/admin/settings">
+        <a
         href="javascript:void(0);"
         class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-      >
-        Action
-      </a>
+        >
+          Perfil
+        </a>
+      </router-link>
       <a
         href="javascript:void(0);"
         class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
@@ -49,7 +51,7 @@
         href="javascript:void(0);"
         class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
       >
-        Seprated link
+        Sair
       </a>
     </div>
   </div>
