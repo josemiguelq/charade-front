@@ -71,7 +71,7 @@ const routes = [
         component: Evaluation,
       },
       {
-        path: "/admin/evaluation/sub",
+        path: "/admin/evaluation/:id/sub",
         component: SubEvaluation,
       },
       {

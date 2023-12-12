@@ -19,7 +19,7 @@
             </span>
           </router-link>
           <p class="text-sm text-blueGray-500 mt-2">
-            <span class="whitespace-nowrap">{{ description }}</span>
+            <span class="whitespace-wrap">{{ description }}</span>
           </p>
         </div>        
       </div>

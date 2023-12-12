@@ -12,7 +12,8 @@
         <div class="mt-4 py-10 border-t border-blueGray-200 text-center">
           <div class="flex flex-wrap justify-center">
             <div class="w-full lg:w-6/12 px-4">
-              <CardAction title="VB-MAPP" 
+              <CardAction title="VB-MAPP"
+              description="Vineland Adaptive Behavior Scales - avaliação do desenvolvimento comportamental"
               iconName="fas fa-chart-pie" 
               :nextAction="nextScreen"/>            
             </div>                     
