@@ -59,7 +59,7 @@
           </div>
         </div>
         <!-- Form -->
-        <form class="mt-6 mb-4 md:hidden">
+        <!-- <form class="mt-6 mb-4 md:hidden">
           <div class="mb-3 pt-0">
             <input
               type="text"
@@ -67,7 +67,7 @@
               class="border-0 px-3 py-2 h-12 border border-solid border-blueGray-500 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-base leading-snug shadow-none outline-none focus:outline-none w-full font-normal"
             />
           </div>
-        </form>
+        </form> -->
 
         <!-- Divider -->
         <hr class="my-4 md:min-w-full" />
@@ -87,6 +87,7 @@
             >
               <a
                 :href="href"
+                v-on:click="toggleCollapseShow('hidden')"
                 @click="navigate"
                 class="text-xs uppercase py-3 font-bold block"
                 :class="[
@@ -107,6 +108,7 @@
           <li class="items-center">
             <router-link
               to="/admin/patients"
+              v-on:click="toggleCollapseShow('hidden')"
               v-slot="{ href, navigate, isActive }"
             >
               <a
@@ -130,6 +132,7 @@
           <li class="items-center">
             <router-link
               to="/admin/users"
+              v-on:click="toggleCollapseShow('hidden')"
               v-slot="{ href, navigate, isActive }"
             >
               <a
@@ -199,6 +202,7 @@ export default {
   },
   methods: {
     toggleCollapseShow: function (classes) {
+      console.log('Clicked')
       this.collapseShow = classes;
     },
   },
