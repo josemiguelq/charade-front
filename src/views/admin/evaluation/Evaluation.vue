@@ -1,7 +1,10 @@
 <template>
     <div class="flex flex-wrap">    
       <div class="w-full px-4">
-        <CardEvaluation nextScreen="/admin/evaluation/vb-mapp/sub"/>
+        <CardEvaluation 
+        :evaluations="evaluations" 
+        :evaluationsSoon="evaluationsSoon"
+        nextScreen="/admin/evaluation/vb-mapp/sub"/>
       </div>
     </div>
   </template>
@@ -12,6 +15,17 @@
     components: {    
         CardEvaluation,
     },
+    data() {
+      return {
+        evaluations: [
+                {
+                  title: 'VB-MAPP',
+                  description: 'Vineland Adaptive Behavior Scales - avaliação do desenvolvimento comportamental'
+                }
+              ],
+        evaluationsSoon: [{title: 'ABBLS', description: 'Em breve'}],
+      }
+    }
   };
   </script>
   

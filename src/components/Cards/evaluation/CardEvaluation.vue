@@ -11,11 +11,27 @@
         </div>
         <div class="mt-4 py-10 border-t border-blueGray-200 text-center">
           <div class="flex flex-wrap justify-center">
-            <div class="w-full lg:w-6/12 px-4">
-              <CardAction title="VB-MAPP"
-              description="Vineland Adaptive Behavior Scales - avaliação do desenvolvimento comportamental"
+            <div v-for="(evaluation, index) in evaluations" :key="index"
+            class="w-full lg:w-6/12 px-4">
+              <CardAction :title="evaluation.title"
+              :description="evaluation.description"
               iconName="fas fa-chart-pie" 
               :nextAction="nextScreen"/>            
+            </div>                     
+          </div>
+        </div>
+        <div class="flex flex-wrap justify-center">
+          <div class="w-full px-4 text-center mt-8">
+            <h1 class="font-bold text-xl">Em Breve!</h1>
+          </div>
+        </div>
+        <div class="mt-4 py-10 border-t border-blueGray-200 text-center">
+          <div class="flex flex-wrap justify-center">
+            <div v-for="(evaluation, index) in evaluationsSoon" :key="index"
+            class="w-full lg:w-6/12 px-4">
+              <CardAction :title="evaluation.title"
+              :description="evaluation.description"
+              disabledAction="true"/>
             </div>                     
           </div>
         </div>
@@ -29,11 +45,12 @@
   export default {
     props: {
       nextScreen: {required: false},
-      evaluations: {required: false}
+      evaluations: {required: true},
+      evaluationsSoon: {required: true},
     },
       data() {
           return {
-              team2,
+              team2,              
           };
       },
       components: { CardAction }

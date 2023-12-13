@@ -13,8 +13,11 @@
           </div>
         </div>
         <div class="relative w-full pr-4 max-w-full flex-grow flex-1">
-          <router-link :to="nextAction">
-            <span class="font-semibold text-lg text-blueGray-700 ml-2">
+          <router-link :to="nextAction"
+          :class="{ disabled: disabledAction }">
+            <span class="font-semibold text-lg ml-2"
+            :class="{'text-blueGray-300': disabledAction,
+          'text-blueGray-700': !disabledAction}">
             {{ title }}
             </span>
           </router-link>
@@ -48,6 +51,10 @@ export default {
       type: String,
       default: "/admin/evaluation/select"
     },
+    disabledAction: {
+      type: Boolean,
+      default: false
+    }
   },
 };
 </script>
