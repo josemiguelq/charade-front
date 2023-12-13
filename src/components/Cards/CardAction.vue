@@ -14,7 +14,7 @@
         </div>
         <div class="relative w-full pr-4 max-w-full flex-grow flex-1">
           <router-link :to="nextAction">
-            <span class="font-semibold text-lg text-blueGray-700">
+            <span class="font-semibold text-lg text-blueGray-700 ml-2">
             {{ title }}
             </span>
           </router-link>

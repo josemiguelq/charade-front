@@ -1,7 +1,7 @@
 <template>
-    <div class="flex flex-wrap">    
-      <div class="w-full px-4">
-        <CardSubEvaluation />
+    <div class="flex flex-wrap">      
+      <div class="w-full">
+        <CardSubEvaluation :subEvaluations="subEvaluations" :category="$route.params.id"/>
       </div>
     </div>
   </template>
@@ -12,6 +12,16 @@
     components: {    
       CardSubEvaluation,
     },
+    data() {
+      return {
+        subEvaluations: [
+          {name: 'Avaliação de Marcos do Desenvolvimento'},
+          {name: 'Avaliação de Barreiras'},
+          {name: 'Avaliação de Transição'},
+          {name: 'Avaliação de Transição'},
+        ]
+      }
+    }
   };
   </script>
   

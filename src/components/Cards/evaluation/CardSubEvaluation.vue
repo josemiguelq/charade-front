@@ -5,13 +5,14 @@
       <div class="px-6">
         <div class="flex flex-wrap justify-center">
           <div class="w-full px-4 text-center mt-20">
+            {{ category }}
           </div>
         </div>
         <div class="mt-4 py-10 border-t border-blueGray-200 text-center">
           <div class="flex flex-wrap justify-center">
             <div v-for="(evaluation, index) in subEvaluations" :key="index"
-            class="w-full lg:w-6/12 px-4">
-              <CardAction :title="evaluation.name" iconName="fas fa-chart-pie"/>            
+            class="w-full lg:w-6/12 px-4 py-4">
+              <CardAction :title="evaluation.name" iconName="fas fa-file"/>            
             </div>                     
           </div>
         </div>
@@ -26,7 +27,8 @@
           return {};
       },
       props: {
-        subEvaluations: {required: true}
+        subEvaluations: {required: true},
+        category: {required: true}
       },
       components: { CardAction }
   };
