@@ -20,8 +20,8 @@
                 href=""
                 target="_blank"
                 class="get-started text-white font-bold px-6 py-4
-                rounded outline-none focus:outline-none mb-1 bg-emerald-500 
-                active:bg-emerald-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                rounded outline-none focus:outline-none mb-1 bg-primary
+                active:bg-primary uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
               >
               Experimente agora
               </a>
